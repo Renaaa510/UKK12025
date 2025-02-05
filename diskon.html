@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./style.css">
+	<script src="main.js" defer></script>
+	<title>Discount Calculator</title>
+</head>
+<body>
+	<div class="card">
+		<h1>Discount Calculator</h1>
+		<form action="#">
+			<div class="input-item">
+			<label for="nama barang"> Nama Barang: </label>
+				<select name="barang " id="Nama Barang">
+					<option value="jenis baju">Jenis Baju</option>
+					<option value="baju sweater">Baju Sweater</option>
+					<option value="baju kemeja">Baju Kemeja</option>
+					<option value="baju batik">Baju Batik</option>
+					<option value="baju gamis">Baju Gamis</option>
+				</select>
+			</div>
+			<div class="input-item">
+				<label for="amount"> Masukan Jumlah Pembayaran: </label>
+				<input type="text" id="amount">
+			</div>
+
+			<div class="input-item">
+				<label for="discount-percentage">Pilih Diskon</label>
+				<input type="text" id="discount-percentage">
+					
+				</select>
+			</div>
+
+			<button type="submit" class="calculate">Calculate</button>
+			<div class="input-item">
+				<label for="discount-amount"> Jumlah Diskon: </label>
+				<input type="text" id="discount-amount" disabled>
+			</div>
+			<div class="input-item">
+				<label for="pay" aria-disabled="true"> Pembayaran Terakhir:</label>
+				<input type="text" id="pay" disabled>
+			</div>
+			<input type="reset" value="Reset" class="reset">
+			<li> <a href="beranda.html"><i class="icon icon-shopping-cart"></i> <span>BACK</span></a></li>
+		</form>
+	</div>
+</body>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./style.css">
+	<script src="main.js" defer></script>
+	<title>Discount Calculator</title>
+</head>
+<body>
+	<div class="card">
+		<h2>Rincian Pembayaran</h2>
+		<form action="#">
+			<div class="input-item">
+				<label for="nilai"> Total Harga Diskon : </label>
+				<input type="text" id="nilai" disabled>
+			</div>
+			<div class="input-item">
+				<label for="total" aria-disabled="true"> Total Bayar:</label>
+				<input type="text" id="total" disabled>
+				<h1><div><button onclick="window.print()"> Print </button></div></h1>
+			</form>
+			</div>
+        </body>
+</html>
